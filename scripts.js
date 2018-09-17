@@ -1,0 +1,1 @@
+document.write("<footer>Thank you for vising my page</footer>")

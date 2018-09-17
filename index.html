@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    window.document.write("Hello World");
+    var myName = "Gregory";
+    document.write("<br/>"+ myName);
+    // for debugging
+    console.log(myName);
+    </script>
+    <p onclick="alert('you clicked me')">Click Here</p>
+
+    <p onclick="alert(document.getElementById('tinkerbell').src)">What is the src</p>
+
+    <p onclick="document.getElementById('tinkerbell').src = 'stitch.jpg'">Change image src</p>
+    <img src="tinkerbell.png" alt="tinkerbell" id="tinkerbell"> 
+
+
+    <script src="scripts.js"></script>
+</body>
+</html>
